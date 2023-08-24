@@ -1,6 +1,6 @@
 .PHONY: dist test
 
-dist:
+dist: dep
 	@npm run build
 
 test:
